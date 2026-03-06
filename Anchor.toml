@@ -1,0 +1,15 @@
+[toolchain]
+package_manager = "npm"
+
+[features]
+resolution = true
+
+[programs.devnet]
+discombobulator = "Disco11111111111111111111111111111111"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "npm run test"
